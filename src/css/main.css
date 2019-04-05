@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important; 
+}
+
+[class*="navbarbtn"] {
+    display: inline;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1rem;
+}
+header > div:first-of-type > a {
+    color: rgba(255,255,255,.54);
+    padding: .5rem;
+    margin-top: 3px;
+    font-size: .8rem;
+    display: inline-block;
+}
+header > div:first-of-type > a:first-of-type {
+    margin-left: 1rem;
+}
+header > div:first-of-type {
+    background-color: black;
+}
+
+header > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    
+}
+header > div:nth-child(2) > div > a {
+    padding: 1rem 1rem;
+    display: inline-block;
+    color: rgba(0,0,0,.54);
+    font-size: .85rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+header > div:nth-child(2) > div > div {
+    display: inline-block;
+}
+header > div:nth-child(2) > div > span {
+    padding: 1rem;
+    display: inline-block;
+    font-size: .85rem;
+}
+
+header > div:last-of-type {
+    background-color: rgb(255, 185, 35);
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: rgba(0,0,0,.84);
+}
+@media only screen and (min-width: 768px) {
+    .navbarbtn-one-custom {
+        margin-top: 0;
+        width: 30%;
+    }
+}
