@@ -1,58 +1,121 @@
-
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif !important; 
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+}
+.wrapper {
+  margin: 0 1%;
+}
+
+.text-white {
+  color: white;
 }
 
 [class*="navbarbtn"] {
-    display: inline;
-    float: left;
-    margin-left: 3%;
-    margin-top: 1rem;
+  display: inline;
+  float: left;
+  margin-left: 3%;
+  margin-top: 1rem;
 }
 header > div:first-of-type > a {
-    color: rgba(255,255,255,.54);
-    padding: .5rem;
-    margin-top: 3px;
-    font-size: .8rem;
-    display: inline-block;
+  color: rgba(255, 255, 255, 0.54);
+  padding: 0.5rem;
+  margin-top: 3px;
+  font-size: 0.8rem;
+  display: inline-block;
 }
 header > div:first-of-type > a:first-of-type {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 header > div:first-of-type {
-    background-color: black;
+  background-color: black;
 }
 
 header > div:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
 }
 header > div:nth-child(2) > div > a {
-    padding: 1rem 1rem;
-    display: inline-block;
-    color: rgba(0,0,0,.54);
-    font-size: .85rem;
-    font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 1rem 1rem;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.85rem;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 header > div:nth-child(2) > div > div {
-    display: inline-block;
+  display: inline-block;
 }
 header > div:nth-child(2) > div > span {
-    padding: 1rem;
-    display: inline-block;
-    font-size: .85rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 0.85rem;
 }
 
 header > div:last-of-type {
-    background-color: rgb(255, 185, 35);
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
-    color: rgba(0,0,0,.84);
+  background-color: rgb(255, 185, 35);
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  color: rgba(0, 0, 0, 0.84);
 }
+
+/* hero Section */
+
+.hero {
+  margin-top: 0.2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30em;
+  width: 100%;
+}
+.dark {
+  background: darkgray;
+}
+.hero-col-1 {
+  width: 66%;
+  height: auto;
+}
+.hero-col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 33.33%;
+  height: auto;
+}
+
+.hero-col-3 {
+  height: 49%;
+  width: auto;
+}
+
+.ad {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TNW2019_JamesBridle-796x410.png");
+
+  height: 99.5%;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.ad-ul li {
+  color: white;
+
+  top: 35em;
+  position: absolute;
+  display: inline-block;
+}
+.ad-ul li a {
+  color: white;
+}
+
+.ad h2 {
+  width: 80%;
+  margin-top: 18rem;
+  font-size: 46px;
+}
+
 @media only screen and (min-width: 768px) {
-    .navbarbtn-one-custom {
-        margin-top: 0;
-        width: 30%;
-    }
+  .navbarbtn-one-custom {
+    margin-top: 0;
+    width: 30%;
+  }
 }
