@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: "Open Sans", sans-serif !important;
 }
 
@@ -187,8 +186,6 @@ header > div:nth-child(2) > div > span:last-of-type {
   width: 100%;
 }
 
-
-
 .dark {
   background: darkgray;
 }
@@ -220,214 +217,212 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 
 .art-1 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fjhkjkh.jpg&signature=0a5f0ed2450520d42760e97f5355a3ca")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fjhkjkh.jpg&signature=0a5f0ed2450520d42760e97f5355a3ca")
     no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .art-2 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fbitcoin-price-rise.jpg&signature=d5eb53f6e6353ec83e6f23a96f4ddf68")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fbitcoin-price-rise.jpg&signature=d5eb53f6e6353ec83e6f23a96f4ddf68")
     no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
-
 
 .date {
   display: block;
   float: right;
 }
 
-.article-0{
-
-    margin: 0 0.9em;
-    margin-top: 12em;
+.article-0 {
+  margin: 0 0.9em;
+  margin-top: 12em;
 }
 
-.article-0 h2{
-    left: 1em;
-    width: 98%;
-    font-size: 3em;
-
+.article-0 h2 {
+  font-weight: 900;
+  left: 1em;
+  width: 98%;
+  font-size: 3em;
 }
 
-.article-0 img{
-    position: relative;
-    bottom: 10rem;
-    left: 1em;
-    clear: right;
-    width: 50%;
-}
-
-.article-0 li {
-    color: grey;
+.article-0 img {
+  position: relative;
+  bottom: 10rem;
+  clear: right;
+  width: 50%;
 }
 
 .article-0 li {
-    color: grey;
+  color: grey;
 }
 
-
+.article-0 li {
+  color: grey;
+}
 
 .article-0 a:nth-child(1) {
-    display: block;
-    text-decoration: none;
-    font-weight: lighter;
+  display: block;
+  text-decoration: none;
+  font-weight: lighter;
 }
 .article-0 a:nth-child(2) {
-    display: block;
+  display: block;
 
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.article-0 ul {
+  margin-top: 1.6em;
 }
 
 .article-0 ul li {
-    display: inline-block;
-    font-size: 13px;
+  display: inline-block;
+  font-size: 13px;
 
-    padding-right: 0.1em;
+  padding-right: 0.1em;
 }
 
 .article-0 ul li a {
-    text-decoration: none;
-    color: rgb(165, 165, 165);
-    font-size: 13px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.article-1 ,
-.article-2{
-    position: absolute;
-    margin: 0 0.9em;
-    margin-top: 6em;
-    line-height: 1.5em;
-}
-
-.article-1 li {
-    color: grey;
-}
-
-.article-2 li {
-    color: grey;
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 13px;
 }
 
 .article-1 {
-    margin-top: 6em;
+}
+
+.article-1,
+.article-2 {
+  margin: 0 0.9em;
+  margin-top: 8em !important;
+  line-height: 1.5em;
+}
+
+.article-1 li {
+  color: grey;
+}
+
+.article-2 li {
+  color: grey;
+}
+
+.article-1 {
+  margin-top: 6em;
 }
 
 .article-1 a:nth-child(1) {
-    display: block;
-    text-decoration: none;
-    font-weight: lighter;
+  display: block;
+  text-decoration: none;
+  font-weight: lighter;
 }
 .article-1 a:nth-child(2) {
-    display: block;
+  display: block;
 
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
 }
 
 .article-1 ul li {
-    display: inline-block;
-    font-size: 13px;
+  display: inline-block;
+  font-size: 13px;
 
-    padding-right: 0.1em;
+  padding-right: 0.1em;
 }
 
 .article-1 ul li a {
-    text-decoration: none;
-    color: rgb(165, 165, 165);
-    font-size: 13px;
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 13px;
 }
 
 .article-2 a:nth-child(1) {
-    display: block;
-    text-decoration: none;
-    font-weight: lighter;
+  display: block;
+  text-decoration: none;
+  font-weight: lighter;
 }
 .article-2 a:nth-child(2) {
-    display: block;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.4em;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
 }
 
 .article-2 ul li {
-    display: inline-block;
-    font-size: 13px;
+  display: inline-block;
+  font-size: 13px;
 
-    padding-right: 0.1em;
+  padding-right: 0.1em;
 }
 
 .article-2 ul li a {
-    text-decoration: none;
-    color: rgb(165, 165, 165);
-    font-size: 13px;
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 1015px) {
-
-
-
-
-
   .article-0 h2 {
-
     font-size: 1em;
+  }
 
+  .article-0 {
+    margin-bottom: 0.5em;
+    line-height: 1 em;
+    margin-top: 5em;
   }
   .date {
     display: none;
   }
 
-  .hero{
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-between;
-        height: auto;
-      margin-bottom: 10em;
-
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 10em;
   }
 
-  .hero-col-1, .hero-col-2{
-
-      width: 100%;
-      height: 400px;
+  .hero-col-1,
+  .hero-col-2 {
+    width: 100%;
+    height: 350px;
   }
 
-    .hero-col-3{
-        margin-top: .5em;
-        height: 400px;
+  .hero-col-3 {
+    margin-top: 0.5em;
+    height: 350px;
+  }
+
+  .article-0 img {
+    display: none;
+  }
+  .article-0 ul {
+    margin-top: 0.2em;
+  }
+
+  .article-1,
+  .article-2 {
+    margin-top: 6.5em !important;
+  }
+
+  .article-1,
+  a:nth-child(2) {
+    font-size: 0.8em;
+  }
+  .article-2,
+  a:nth-child(2) {
+    font-size: 0.8em;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .navbarbtn-one-custom {
+      margin-top: 0;
+      width: 30%;
     }
-
-    .article-0 img{
-        display: none;
-    }
-
-
-}
-
-@media only screen and (min-width: 768px) {
-  .navbarbtn-one-custom {
-    margin-top: 0;
-    width: 30%;
   }
 }
