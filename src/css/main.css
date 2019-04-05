@@ -1,121 +1,241 @@
 body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif !important;
+    margin: 0;
+    font-family: "Open Sans", sans-serif !important;
 }
+
 .wrapper {
-  margin: 0 1%;
+    margin: 0 1%;
 }
 
 .text-white {
-  color: white;
+    color: white;
 }
 
-[class*="navbarbtn"] {
-  display: inline;
-  float: left;
-  margin-left: 3%;
-  margin-top: 1rem;
-}
-header > div:first-of-type > a {
-  color: rgba(255, 255, 255, 0.54);
-  padding: 0.5rem;
-  margin-top: 3px;
-  font-size: 0.8rem;
-  display: inline-block;
-}
-header > div:first-of-type > a:first-of-type {
-  margin-left: 1rem;
-}
-header > div:first-of-type {
-  background-color: black;
+header>div:first-of-type>a {
+    color: rgba(255, 255, 255, 0.54);
+    padding: 0.5rem 0.3rem;
+    margin-top: 3px;
+    font-size: 0.8rem;
+    display: inline-block;
 }
 
-header > div:nth-child(2) {
-  display: flex;
-  justify-content: space-between;
-}
-header > div:nth-child(2) > div > a {
-  padding: 1rem 1rem;
-  display: inline-block;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.85rem;
-  font-family: "Alegreya Sans SC", sans-serif;
-}
-header > div:nth-child(2) > div > div {
-  display: inline-block;
-}
-header > div:nth-child(2) > div > span {
-  padding: 1rem;
-  display: inline-block;
-  font-size: 0.85rem;
+header>div:first-of-type>a:first-of-type {
+    margin-left: 1rem;
 }
 
-header > div:last-of-type {
-  background-color: rgb(255, 185, 35);
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-  color: rgba(0, 0, 0, 0.84);
+header>div:first-of-type {
+    background-color: black;
+    padding-bottom: .1rem;
+}
+
+header>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    padding-left: .75rem;
+    padding-top: .25rem;
+}
+
+header>div:nth-child(2)>div>a {
+    padding: .95rem .5rem;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.32);
+    font-size: 0.9rem;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-variant-caps: titling-caps;
+}
+
+header>div:nth-child(2)>div:last-of-type>div:first-of-type>img {
+    padding: .83rem;
+    border-left: .5px solid rgba(0, 0, 0, .10);
+}
+
+header>div:nth-child(2)>div>div {
+    display: inline-block;
+}
+
+header>div:nth-child(2)>div>span {
+    padding: .5rem;
+    display: inline-block;
+    font-size: 0.85rem;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header>div:last-of-type {
+    background-color: #FFDD33;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: rgba(0, 0, 0, 0.84);
+    font-size: .8rem;
+    padding-left: 1.25rem;
+    font-weight: 800;
+}
+
+header>div:nth-child(2)>div>span:first-of-type {
+    font-size: .7rem;
+    color: rgba(0, 0, 0, .84);
+}
+
+header>div:nth-child(2)>div>span:nth-of-type(2) {
+    font-size: 1.3rem;
+    padding: 0;
+    vertical-align: middle;
+    color: #FF4422;
+    font-weight: bolder;
+}
+
+header>div:nth-child(2)>div>span:last-of-type {
+    background-color: #00CCCC;
+    color: white;
+    border-radius: 3px;
+    margin: 0 1rem;
+    font-weight: 700;
+    font-size: .7rem;
+    padding: .5rem 1.0rem;
+}
+
+.section-2 {
+    width: 72rem;
+    margin: 0 auto;
+    
+}
+.section-2 h1:first-of-type {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 2rem 0;
+    padding-left: .5rem;
+    color: #FF4422;
+}
+.section-2 h2 {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+.section-2 h3 {
+    font-size: .83rem;
+    color: rgba(0,0,0,.44);
+    margin: 1rem 0;
+}
+.section-2 > div > div:first-of-type {
+    width: 100%;
+    height: 8rem;
+    background-color: rgba(0,0,0,.34);
+}
+.section-2 > div {
+    width: 23%;
+    margin: 0 0.86%;
+    display: inline-table;
+    height: 15.7rem;
+}
+.section-3 {
+    width: 72rem;
+    margin: 0 auto;
+    
+}
+.section-3 h1:first-of-type {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 2rem 0;
+    padding-left: .5rem;
+    color: #FF4422;
+}
+.section-3 > div {
+    width: 23%;
+    margin: 0 0.86%;
+    display: inline-table;
+    height: 15.7rem;
+}
+
+/* Media Reporter */
+
+@media only screen and (max-width: 1208px) {
+    header>div:nth-child(2)>div>a:nth-last-of-type(1) {
+        display: none;
+    }
+    header>div:nth-child(2)>div>a:nth-last-of-type(2) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    header>div:nth-child(2)>div>span {
+        display: none;
+    }
+    header>div:nth-child(2)>div>div:nth-last-of-type(1)>img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 589px) {
+    header>div:nth-of-type(2)>div:nth-last-of-type(2)>a {
+        display: none;
+    }
 }
 
 /* hero Section */
 
 .hero {
-  margin-top: 0.2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 30em;
-  width: 100%;
+    margin-top: 0.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30em;
+    width: 100%;
 }
-.dark {
-  background: darkgray;
-}
-.hero-col-1 {
-  width: 66%;
-  height: auto;
-}
-.hero-col-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
-  width: 33.33%;
-  height: auto;
+.dark {
+    background: darkgray;
+}
+
+.hero-col-1 {
+    width: 66%;
+    height: auto;
+}
+
+.hero-col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33.33%;
+    height: auto;
 }
 
 .hero-col-3 {
-  height: 49%;
-  width: auto;
+    height: 49%;
+    width: auto;
 }
 
 .ad {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TNW2019_JamesBridle-796x410.png");
-
-  height: 99.5%;
-  width: 100%;
-  display: block;
-  position: relative;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TNW2019_JamesBridle-796x410.png");
+    height: 99.5%;
+    width: 100%;
+    display: block;
+    position: relative;
 }
 
 .ad-ul li {
-  color: white;
-
-  top: 35em;
-  position: absolute;
-  display: inline-block;
+    color: white;
+    top: 35em;
+    position: absolute;
+    display: inline-block;
 }
+
 .ad-ul li a {
-  color: white;
+    color: white;
 }
 
 .ad h2 {
-  width: 80%;
-  margin-top: 18rem;
-  font-size: 46px;
+    width: 80%;
+    margin-top: 18rem;
+    font-size: 46px;
 }
 
 @media only screen and (min-width: 768px) {
-  .navbarbtn-one-custom {
-    margin-top: 0;
-    width: 30%;
-  }
+    .navbarbtn-one-custom {
+        margin-top: 0;
+        width: 30%;
+    }
 }
