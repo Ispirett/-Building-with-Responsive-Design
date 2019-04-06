@@ -1,7 +1,9 @@
 body {
   font-family: "Open Sans", sans-serif !important;
+  line-height: 1em;
 }
 
+/* utilities */
 .wrapper {
   margin: 0 1%;
 }
@@ -9,6 +11,22 @@ body {
 .text-white {
   color: white;
 }
+
+.bg-grey {
+  background: grey;
+}
+
+.gutter-left {
+  margin-left: 1%;
+}
+
+.col-1-3 {
+  width: 32.3%;
+  display: inline-block;
+  height: auto;
+}
+
+/* utilities end */
 
 header > div:first-of-type > a {
   color: rgba(255, 255, 255, 0.54);
@@ -100,6 +118,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   width: 72rem;
   margin: 0 auto;
 }
+
 .section-2 h1:first-of-type {
   font-size: 1.6rem;
   font-weight: 900;
@@ -107,31 +126,37 @@ header > div:nth-child(2) > div > span:last-of-type {
   padding-left: 0.5rem;
   color: #ff4422;
 }
+
 .section-2 h2 {
   font-weight: 900;
   font-size: 1rem;
   margin-top: 0.5rem;
 }
+
 .section-2 h3 {
   font-size: 0.83rem;
   color: rgba(0, 0, 0, 0.44);
   margin: 1rem 0;
 }
+
 .section-2 > div > div:first-of-type {
   width: 100%;
   height: 8rem;
   background-color: rgba(0, 0, 0, 0.34);
 }
+
 .section-2 > div {
   width: 23%;
   margin: 0 0.86%;
   display: inline-table;
   height: 15.7rem;
 }
+
 .section-3 {
   width: 72rem;
   margin: 0 auto;
 }
+
 .section-3 h1:first-of-type {
   font-size: 1.6rem;
   font-weight: 900;
@@ -139,6 +164,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   padding-left: 0.5rem;
   color: #ff4422;
 }
+
 .section-3 > div {
   width: 23%;
   margin: 0 0.86%;
@@ -152,6 +178,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   header > div:nth-child(2) > div > a:nth-last-of-type(1) {
     display: none;
   }
+
   header > div:nth-child(2) > div > a:nth-last-of-type(2) {
     display: none;
   }
@@ -161,6 +188,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   header > div:nth-child(2) > div > span {
     display: none;
   }
+
   header > div:nth-child(2) > div > div:nth-last-of-type(1) > img {
     display: none;
   }
@@ -172,11 +200,150 @@ header > div:nth-child(2) > div > span:last-of-type {
   }
 }
 
+/* setion 4 */
+
+.section-4 {
+  margin: 0 auto;
+  width: 72rem;
+  padding: 2em 1em 0 1em;
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-4 h2 {
+  font-size: 26px;
+  color: red;
+  font-weight: bold;
+}
+
+.section-4 h2:hover {
+  color: black;
+}
+
+.section-4 img {
+  width: 100px;
+  height: 100px;
+}
+
+.section-4 section ul {
+  margin-top: 1em;
+}
+
+.section-4 section ul li:first {
+  height: 10em;
+}
+
+.section-4-article {
+  height: 15em;
+  background: transparent
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fbosch-blockchain-fridge-austria-wien-energie-cryptocurrency-smart-refrigerator.jpg&signature=dc1cf859d4c6afb622450c54d52474fa")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white !important;
+}
+
+.section-4-article a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.section-4-article div {
+  padding-top: 8em;
+  line-height: 1.5em;
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-4-article div h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.section-4-article div h2 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.section-4-article div ul li {
+  font-size: 11px;
+  display: inline-block;
+}
+
+.section-4-article-1 {
+  margin-top: 0.3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f42;
+  background-color: rgb(255, 244, 242);
+}
+
+.section-4-article-1 > div {
+  margin-left: 1em;
+}
+
+.section-4-article-1 > div > h5 {
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.section-4-article-1 > div > h4 {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.li {
+  margin-left: 1em;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.5em;
+  list-style: square;
+  border-bottom: 1px solid grey;
+}
+
+.li a {
+  color: darkgray;
+  text-decoration: none !important;
+  font-weight: 100;
+}
+
+@media (max-width: 1250px) {
+  .section-4 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-4 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-4 img {
+    width: 150px;
+  }
+
+  .col-1-3 {
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  .section-4-article-1 > div {
+    width: 81%;
+  }
+}
+
 /* hero Section */
 
 .text-white {
   color: white;
 }
+
 .hero {
   margin-top: 0.2%;
   display: flex;
@@ -189,6 +356,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 .dark {
   background: darkgray;
 }
+
 .hero-col-1 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TNW2019_JamesBridle-796x410.png")
     no-repeat;
@@ -202,6 +370,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   width: 66%;
   height: auto;
 }
+
 .hero-col-2 {
   display: flex;
   flex-direction: column;
@@ -245,6 +414,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   left: 1em;
   width: 98%;
   font-size: 3em;
+  line-height: 1em;
 }
 
 .article-0 img {
@@ -267,6 +437,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   text-decoration: none;
   font-weight: lighter;
 }
+
 .article-0 a:nth-child(2) {
   display: block;
 
@@ -319,6 +490,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   text-decoration: none;
   font-weight: lighter;
 }
+
 .article-1 a:nth-child(2) {
   display: block;
 
@@ -345,6 +517,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   text-decoration: none;
   font-weight: lighter;
 }
+
 .article-2 a:nth-child(2) {
   display: block;
   text-decoration: none;
@@ -375,6 +548,7 @@ header > div:nth-child(2) > div > span:last-of-type {
     line-height: 1 em;
     margin-top: 5em;
   }
+
   .date {
     display: none;
   }
@@ -401,19 +575,21 @@ header > div:nth-child(2) > div > span:last-of-type {
   .article-0 img {
     display: none;
   }
+
   .article-0 ul {
     margin-top: 0.2em;
   }
 
   .article-1,
   .article-2 {
-    margin-top: 6.5em !important;
+    margin-top: 7.5em !important;
   }
 
   .article-1,
   a:nth-child(2) {
     font-size: 0.8em;
   }
+
   .article-2,
   a:nth-child(2) {
     font-size: 0.8em;
