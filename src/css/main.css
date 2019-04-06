@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Roboto Slab", "Open Sans", sans-serif !important;
   line-height: 1em;
 }
 
 /* utilities */
 .wrapper {
   margin: 0 1%;
+  margin-top: 7.7em;
 }
 
 .text-white {
@@ -27,6 +29,15 @@ body {
 }
 
 /* utilities end */
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+
+  z-index: 1;
+  box-shadow: -2px 36px 60px 0px rgb(241, 241, 241);
+}
 
 header > div:first-of-type > a {
   color: rgba(255, 255, 255, 0.54);
@@ -46,6 +57,7 @@ header > div:first-of-type {
 }
 
 header > div:nth-child(2) {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding-left: 0.75rem;
@@ -216,7 +228,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 .section-4 h2 {
   font-size: 26px;
   color: red;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .section-4 h2:hover {
@@ -228,7 +240,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   height: 100px;
 }
 
-.section-4 section ul {
+.section-4 section > ul {
   margin-top: 1em;
 }
 
@@ -262,6 +274,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 .section-4-article div h3 {
   font-size: 17px;
   font-weight: 400;
+  margin-top: 1em;
 }
 
 .section-4-article div h2 {
