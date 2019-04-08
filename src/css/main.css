@@ -182,7 +182,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 
 .section-2 {
-  width: 72rem;
+  width: 93%;
   margin: 0 auto;
 }
 
@@ -218,8 +218,10 @@ header > div:nth-child(2) > div > span:last-of-type {
   display: inline-table;
   height: 15.7rem;
 }
+
+
 .section-3 {
-  width: 72rem;
+  width: 93%;
   margin: 0 auto;
 }
 .section-3 br {
@@ -322,7 +324,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   width: 23%;
   margin: 0 0.86%;
   display: inline-table;
-  height: 15.7rem;
+  
   background-color: #fffaf8;
 }
 .section-3 > span {
@@ -344,6 +346,19 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 
 @media only screen and (max-width: 1020px) {
+
+  
+  .section-2 > div {
+    width: 31%;
+  }
+  .section-3 > div {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .section-2 > div:nth-child(4n+1) div:after {
+    display:block;
+  }
+
   header > div:nth-child(2) > div > span {
     display: none;
   }
@@ -351,19 +366,49 @@ header > div:nth-child(2) > div > span:last-of-type {
   header > div:nth-child(2) > div > div:nth-last-of-type(1) > img {
     display: none;
   }
+  footer > div:first-of-type > div  {
+    
+    width: auto;
+  }
+  footer > div:first-of-type > div:nth-of-type(2) {
+    text-align: center;
+  }
+  .section-3 h1:first-of-type {
+    line-height: 1.2;
+    padding-left: 0;
+  }
+  .footer > div:first-of-type > div {
+    width: auto;
+    text-align: center;
+  }
+  .section-3 h1:last-of-type {
+
+    margin-top: 1.5rem;
+}
 }
 
 @media only screen and (max-width: 589px) {
   header > div:nth-of-type(2) > div:nth-last-of-type(2) > a {
     display: none;
   }
+  .section-2 > div {
+    width: 47%;
+  }
+  .section-2 > div:nth-child(3n+1) div:after {
+    display:block;
+  }
+  .section-3 > div {
+    width: 100%;
+    display:inline-block;
+  }
+
 }
 
 /* setion 4 */
 
 .section-4 {
   margin: 0 auto;
-  width: 72rem;
+  width: 93%;
   padding: 2em 1em 0 1em;
 
   height: auto;
