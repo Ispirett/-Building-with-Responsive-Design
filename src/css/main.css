@@ -26,7 +26,7 @@ body {
 }
 
 .gutter-left-1 {
-  margin-left: 1em;
+  margin-left: 2%;
 }
 .gutter-bottom {
   margin-bottom: 4em !important;
@@ -475,11 +475,10 @@ header > div:nth-child(2) > div > span:last-of-type {
 /* Section */
 .secion-5-wrapper {
   margin: 0 auto !important;
-  width: 72em !important;
+  width: 72rem !important;
 }
 .section-5 {
   padding: 2em 1em 0 1em;
-
   height: auto;
   display: flex;
   flex-direction: row;
@@ -530,6 +529,9 @@ header > div:nth-child(2) > div > span:last-of-type {
   .section-4 {
     width: 100%;
   }
+  .secion-5-wrapper {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -556,6 +558,10 @@ header > div:nth-child(2) > div > span:last-of-type {
 
   .section-5 {
     flex-direction: column;
+    width: 100%;
+  }
+  .secion-5-wrapper {
+    width: 100% !important;
   }
   .section-5 div {
     height: 4em !important;
