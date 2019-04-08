@@ -189,6 +189,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 
 .section-2 {
   width: 93%;
+  max-height: 72rem;
   margin: 0 auto;
 }
 
@@ -227,6 +228,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 
 .section-3 {
   width: 93%;
+  max-height: 72rem;
   margin: 0 auto;
 }
 .section-3 br {
@@ -457,6 +459,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   line-height: 1.5em;
 
   width: 90%;
+  
   margin: 0 auto;
 }
 
