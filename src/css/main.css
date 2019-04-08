@@ -17,15 +17,27 @@ body {
 .bg-grey {
   background: grey;
 }
+.bg-dark {
+  background: grey;
+}
 
 .gutter-left {
   margin-left: 1%;
+}
+.gutter-bottom {
+  margin-bottom: 4em !important;
 }
 
 .col-1-3 {
   width: 32.3%;
   display: inline-block;
   height: auto;
+}
+
+.col-1-4 {
+  width: 25%;
+  height: auto;
+  display: inline-block;
 }
 
 /* utilities end */
@@ -168,7 +180,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   margin: 0 auto;
 }
 .section-3 br {
-  margin:  1rem 0;
+  margin: 1rem 0;
 }
 .section-3 h1:first-of-type {
   font-size: 1.6rem;
@@ -188,89 +200,87 @@ header > div:nth-child(2) > div > span:last-of-type {
   margin-top: 0.5rem;
 }
 
-.section-3>h1 {
+.section-3 > h1 {
   display: inline;
 }
 
-.section-3>h1>span {
-  padding: 0 .5rem;
+.section-3 > h1 > span {
+  padding: 0 0.5rem;
 }
 
-.section-3>div>div:first-of-type {
-  background-color: #FFEBE9;
+.section-3 > div > div:first-of-type {
+  background-color: #ffebe9;
   display: grid;
   padding-left: 5rem;
 }
 
-div {}
-
-.section-3>div>div:first-of-type>h1:first-of-type {
+.section-3 > div > div:first-of-type > h1:first-of-type {
   margin: 0;
-  background-color: #FF4421;
+  background-color: #ff4421;
   margin-left: -5rem;
   padding-left: 5rem;
-  padding-top: .8rem;
-  padding-bottom: .7rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.7rem;
   font-size: 1rem;
   font-weight: bolder;
   color: white;
 }
 
-.section-3>div>div:first-of-type>h1:last-of-type {
+.section-3 > div > div:first-of-type > h1:last-of-type {
   display: block;
   margin: 0;
   padding: 0;
   color: black;
   font-weight: 900;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
-.section-3>div>div:first-of-type>h2 {
+.section-3 > div > div:first-of-type > h2 {
   display: block;
-  font-size: .7rem;
+  font-size: 0.7rem;
   padding-bottom: 1rem;
 }
 
-.section-3>div>span {
+.section-3 > div > span {
   display: block;
-  font-size: .9rem;
-  color: rgba(0, 0, 0, .54);
-  padding: .5rem 0;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0.5rem 0;
 }
 
-.section-3>div>div:last-of-type {
+.section-3 > div > div:last-of-type {
   padding: 1rem;
-  border-top: 1px solid rgba(0, 0, 0, .10);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.section-3>div>div:last-of-type>p {
-  font-size: .8rem;
-  color: rgba(0, 0, 0, .54);
+.section-3 > div > div:last-of-type > p {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.54);
   line-height: 1.5;
 }
 
-.section-3>div>div:last-of-type>span {
-  font-size: .8rem;
-  color: rgba(0, 0, 0, .230);
+.section-3 > div > div:last-of-type > span {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.23);
 }
 .section-3 span > img {
-  width: .8rem;
-  padding: 0rem .5rem;
-  margin-left: .5rem;
+  width: 0.8rem;
+  padding: 0rem 0.5rem;
+  margin-left: 0.5rem;
 }
 .section-3 div > img {
   width: 3.5rem;
   position: absolute;
-  background-color: rgba(255,255,255,.54);
-  margin-left: .5rem;
-  margin-top: .5rem;
+  background-color: rgba(255, 255, 255, 0.54);
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
-.section-3 > div  {
+.section-3 > div {
   width: 23%;
   margin: 0 0.86%;
   display: inline-table;
   height: 15.7rem;
-  background-color: #FFFAF8;
+  background-color: #fffaf8;
 }
 .section-3 > span {
   width: 100%;
@@ -445,6 +455,44 @@ div {}
   }
 }
 
+.section-5 {
+  margin: 0 auto;
+  width: 72rem;
+  padding: 2em 1em 0 1em;
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-5 div {
+  height: 15rem;
+  margin-left: 1em;
+}
+
+.section-5-img {
+  background: url("https://cdnp3.stackassets.com/5bc1b6e98c517ff5546ccf4d1eaf91e29f20165b/store/opt/596/298/2ef8ddbe80a1b8a4b132923d796f2a853a3c6408f464b6b06d011fe00b23/product_26285_product_shot_wide_image.jpg")
+    no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-5-ad {
+  margin-left: 0;
+  padding-top: 0.5em;
+  line-height: 1em !important;
+}
+
+.section-5-ad h4 {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.section-5-ad span {
+  font-size: 0.7em;
+  font-weight: light;
+}
+
 /* hero Section */
 
 .text-white {
@@ -568,9 +616,6 @@ div {}
   text-decoration: none;
   color: rgb(165, 165, 165);
   font-size: 13px;
-}
-
-.article-1 {
 }
 
 .article-1,
