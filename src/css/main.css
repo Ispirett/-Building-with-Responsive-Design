@@ -472,9 +472,10 @@ header > div:nth-child(2) > div > span:last-of-type {
   font-weight: 100;
 }
 
-.section-5-wrapper {
-  margin: 0 auto;
-  width: 72rem;
+/* Section */
+.secion-5-wrapper {
+  margin: 0 auto !important;
+  width: 72em !important;
 }
 .section-5 {
   padding: 2em 1em 0 1em;
