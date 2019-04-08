@@ -24,6 +24,10 @@ body {
 .gutter-left {
   margin-left: 1%;
 }
+
+.gutter-left-1 {
+  margin-left: 1em;
+}
 .gutter-bottom {
   margin-bottom: 4em !important;
 }
@@ -42,41 +46,43 @@ body {
 
 /* utilities end */
 
-footer > div:first-of-type {
-    background-color: #131313;
-    margin: 0 auto;
-    padding: 3rem 0 0 0;
+.footer {
+  margin-top: 7em !important;
 }
-footer > div:first-of-type > div >img {
+footer > div:first-of-type {
+  background-color: #131313;
+  margin: 0 auto;
+  padding: 3rem 0 0 0;
+}
+footer > div:first-of-type > div > img {
   background-color: #333333;
   width: 1.3rem;
-  padding: .6rem;
+  padding: 0.6rem;
   border-radius: 2rem;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 footer > div:first-of-type > div {
   margin: 0 auto;
   width: max-content;
-  
 }
 footer > div:first-of-type > div:nth-of-type(2) {
   padding: 1.5rem 0 2.5rem 0;
 }
 footer > div:first-of-type > div > a {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   font-variant-caps: all-small-caps;
   margin-top: 0px;
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.64)
+  color: rgba(255, 255, 255, 0.64);
 }
 footer > div:last-of-type {
   background-color: #000000;
   text-align: center;
   padding: 2.25rem 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 footer div {
-  color : #8C8C8C;
+  color: #8c8c8c;
 }
 .header {
   position: fixed;
@@ -466,6 +472,59 @@ header > div:nth-child(2) > div > span:last-of-type {
   font-weight: 100;
 }
 
+.section-5-wrapper {
+  margin: 0 auto;
+  width: 72rem;
+}
+.section-5 {
+  padding: 2em 1em 0 1em;
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-5 div {
+  height: 15rem;
+}
+
+.section-5-img {
+  width: 100%;
+  background: url("https://cdnp3.stackassets.com/5bc1b6e98c517ff5546ccf4d1eaf91e29f20165b/store/opt/596/298/2ef8ddbe80a1b8a4b132923d796f2a853a3c6408f464b6b06d011fe00b23/product_26285_product_shot_wide_image.jpg")
+    no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-5-ad {
+  width: 100%;
+  margin-left: 0;
+  padding-top: 0.5em;
+  line-height: 1em !important;
+}
+
+.section-5-ad h4 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.section-5-ad span {
+  padding-top: 10px;
+  display: inline-block;
+}
+.section-5-ad span:last-of-type {
+  font-size: 14px;
+  font-weight: light;
+  margin-left: 0.5rem;
+  color: grey;
+}
+.section-5-ad span:first-of-type {
+  font-size: 11px;
+  font-weight: light;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.24);
+}
+
 @media (max-width: 1250px) {
   .section-4 {
     width: 100%;
@@ -473,6 +532,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 
 @media (max-width: 768px) {
+  /*section -4*/
   .section-4 {
     flex-direction: column;
     width: 100%;
@@ -490,58 +550,43 @@ header > div:nth-child(2) > div > span:last-of-type {
   .section-4-article-1 > div {
     width: 81%;
   }
+
+  /*sectin-5*/
+
+  .section-5 {
+    flex-direction: column;
+  }
+  .section-5 div {
+    height: 4em !important;
+  }
+
+  .section-5-img {
+    width: 5em;
+    height: 4em;
+  }
+  .gutter-left-1 {
+    margin-left: 0;
+  }
+  .col-1-4 {
+    margin-bottom: 4em !important;
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+  }
+
+  .section-5-ad {
+    margin-left: 1em;
+  }
+
+  .gutter-bottom {
+    margin-bottom: 0 !important;
+  }
+  .bg-dark {
+    background-color: white;
+  }
 }
 
-.section-5 {
-  margin: 0 auto;
-  width: 72rem;
-  padding: 2em 1em 0 1em;
-
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.section-5 div {
-  height: 15rem;
-  margin-left: 1em;
-}
-
-.section-5-img {
-  background: url("https://cdnp3.stackassets.com/5bc1b6e98c517ff5546ccf4d1eaf91e29f20165b/store/opt/596/298/2ef8ddbe80a1b8a4b132923d796f2a853a3c6408f464b6b06d011fe00b23/product_26285_product_shot_wide_image.jpg")
-    no-repeat !important;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-5-ad {
-  margin-left: 0;
-  padding-top: 0.5em;
-  line-height: 1em !important;
-}
-
-.section-5-ad h4 {
-  font-size: 1em;
-  font-weight: bold;
-}
-.section-5-ad span {
-  padding-top: .75rem;
-  display: inline-block;
-
-}
-.section-5-ad span:last-of-type {
-  font-size: 1.2em;
-  font-weight: light;
-  margin-left: .5rem;
-}
-.section-5-ad span:first-of-type {
-  font-size: 1em;
-  font-weight: light;
-  text-decoration: line-through;
-  color: rgba(0,0,0,.24);
-
-}
 /* hero Section */
 
 .text-white {
