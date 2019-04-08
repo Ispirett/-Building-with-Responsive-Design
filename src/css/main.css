@@ -163,12 +163,13 @@ header > div:nth-child(2) > div > span:last-of-type {
   display: inline-table;
   height: 15.7rem;
 }
-
 .section-3 {
   width: 72rem;
   margin: 0 auto;
 }
-
+.section-3 br {
+  margin:  1rem 0;
+}
 .section-3 h1:first-of-type {
   font-size: 1.6rem;
   font-weight: 900;
@@ -177,11 +178,104 @@ header > div:nth-child(2) > div > span:last-of-type {
   color: #ff4422;
 }
 
-.section-3 > div {
+.section-3 h1:last-of-type {
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 2rem 0;
+  padding-left: 0.5rem;
+  color: #ff4422;
+  float: right;
+  margin-top: 0.5rem;
+}
+
+.section-3>h1 {
+  display: inline;
+}
+
+.section-3>h1>span {
+  padding: 0 .5rem;
+}
+
+.section-3>div>div:first-of-type {
+  background-color: #FFEBE9;
+  display: grid;
+  padding-left: 5rem;
+}
+
+div {}
+
+.section-3>div>div:first-of-type>h1:first-of-type {
+  margin: 0;
+  background-color: #FF4421;
+  margin-left: -5rem;
+  padding-left: 5rem;
+  padding-top: .8rem;
+  padding-bottom: .7rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.section-3>div>div:first-of-type>h1:last-of-type {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: 900;
+  padding-top: .5rem;
+}
+
+.section-3>div>div:first-of-type>h2 {
+  display: block;
+  font-size: .7rem;
+  padding-bottom: 1rem;
+}
+
+.section-3>div>span {
+  display: block;
+  font-size: .9rem;
+  color: rgba(0, 0, 0, .54);
+  padding: .5rem 0;
+}
+
+.section-3>div>div:last-of-type {
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, .10);
+}
+
+.section-3>div>div:last-of-type>p {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, .54);
+  line-height: 1.5;
+}
+
+.section-3>div>div:last-of-type>span {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, .230);
+}
+.section-3 span > img {
+  width: .8rem;
+  padding: 0rem .5rem;
+  margin-left: .5rem;
+}
+.section-3 div > img {
+  width: 3.5rem;
+  position: absolute;
+  background-color: rgba(255,255,255,.54);
+  margin-left: .5rem;
+  margin-top: .5rem;
+}
+.section-3 > div  {
   width: 23%;
   margin: 0 0.86%;
   display: inline-table;
   height: 15.7rem;
+  background-color: #FFFAF8;
+}
+.section-3 > span {
+  width: 100%;
+  height: 0.4rem;
+  display: inline-block;
 }
 
 /* Media Reporter */
