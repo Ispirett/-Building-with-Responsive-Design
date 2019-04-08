@@ -41,6 +41,43 @@ body {
 }
 
 /* utilities end */
+
+footer > div:first-of-type {
+    background-color: #131313;
+    margin: 0 auto;
+    padding: 3rem 0 0 0;
+}
+footer > div:first-of-type > div >img {
+  background-color: #333333;
+  width: 1.3rem;
+  padding: .6rem;
+  border-radius: 2rem;
+  margin: 0 .5rem;
+}
+footer > div:first-of-type > div {
+  margin: 0 auto;
+  width: max-content;
+  
+}
+footer > div:first-of-type > div:nth-of-type(2) {
+  padding: 1.5rem 0 2.5rem 0;
+}
+footer > div:first-of-type > div > a {
+  margin: 0 .5rem;
+  font-variant-caps: all-small-caps;
+  margin-top: 0px;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.64)
+}
+footer > div:last-of-type {
+  background-color: #000000;
+  text-align: center;
+  padding: 2.25rem 0;
+  font-size: .8rem;
+}
+footer div {
+  color : #8C8C8C;
+}
 .header {
   position: fixed;
   right: 0;
@@ -485,14 +522,26 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 
 .section-5-ad h4 {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
 }
 .section-5-ad span {
-  font-size: 0.7em;
-  font-weight: light;
-}
+  padding-top: .75rem;
+  display: inline-block;
 
+}
+.section-5-ad span:last-of-type {
+  font-size: 1.2em;
+  font-weight: light;
+  margin-left: .5rem;
+}
+.section-5-ad span:first-of-type {
+  font-size: 1em;
+  font-weight: light;
+  text-decoration: line-through;
+  color: rgba(0,0,0,.24);
+
+}
 /* hero Section */
 
 .text-white {
