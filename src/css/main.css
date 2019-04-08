@@ -3,6 +3,12 @@ body {
   font-family: "Roboto Slab", "Open Sans", sans-serif !important;
   line-height: 1em;
 }
+/* special */
+
+.hidden {
+  position: absolute;
+  clip: rect(60px 60px 60px 60px);
+}
 
 /* utilities */
 .wrapper {
@@ -435,7 +441,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   margin-top: 1em;
 }
 
-.section-4 section ul li:first {
+.section-4 section ul li:nth-child(1) {
   height: 10em;
 }
 
@@ -459,7 +465,7 @@ header > div:nth-child(2) > div > span:last-of-type {
   line-height: 1.5em;
 
   width: 90%;
-  
+
   margin: 0 auto;
 }
 
@@ -547,10 +553,10 @@ header > div:nth-child(2) > div > span:last-of-type {
 
 .section-5-img {
   width: 100%;
-  background: url("https://cdnp3.stackassets.com/5bc1b6e98c517ff5546ccf4d1eaf91e29f20165b/store/opt/596/298/2ef8ddbe80a1b8a4b132923d796f2a853a3c6408f464b6b06d011fe00b23/product_26285_product_shot_wide_image.jpg")
+  background: url("https://cdnp3.stackassets.com/65bf4c6c7c31e8afec0d645cba07bf28f7579092/store/opt/596/447/8fe8286ce9af7f42970e08e0f3f9572207c1d4949e0f0c882e4e87e78cfe/product_22809_product_shots1_image.jpg")
     no-repeat !important;
   background-size: cover;
-  background-position: center;
+  background-position: center !important;
 }
 
 .section-5-ad {
@@ -570,30 +576,32 @@ header > div:nth-child(2) > div > span:last-of-type {
 }
 .section-5-ad span:last-of-type {
   font-size: 14px;
-  font-weight: light;
+  font-weight: lighter;
   margin-left: 0.5rem;
   color: grey;
 }
 .section-5-ad span:first-of-type {
   font-size: 11px;
-  font-weight: light;
+  font-weight: lighter;
   text-decoration: line-through;
   color: rgba(0, 0, 0, 0.24);
 }
 
 @media (max-width: 1250px) {
   .section-4 {
-    width: 100%;
+    width: 95%;
   }
-  .secion-5-wrapper {
-    width: 100% !important;
-  }
+
   .section-5 {
-    margin-right: 2em !important;
-    width: 90% !important;
+    width: 95% !important;
   }
 }
 
+@media (max-width: 1124px) {
+  .col-1-4 {
+    width: 23.4%;
+  }
+}
 @media (max-width: 1078px) {
   .col-1-4 {
     width: 31%;
@@ -627,6 +635,9 @@ header > div:nth-child(2) > div > span:last-of-type {
 
 @media (max-width: 768px) {
   /*section -4*/
+  .section-4-box-4 {
+    margin-left: 0 !important;
+  }
   .section-4 {
     flex-direction: column;
     width: 100%;
@@ -889,7 +900,7 @@ header > div:nth-child(2) > div > span:last-of-type {
 
   .article-0 {
     margin-bottom: 0.5em;
-    line-height: 1 em;
+    line-height: 1em;
     margin-top: 5em;
   }
 
