@@ -106,6 +106,14 @@ footer div {
   box-shadow: -2px 36px 60px 0px rgb(241, 241, 241);
 }
 
+header > nav:first-of-type > a {
+  color: rgba(255, 255, 255, 0.54);
+  padding: 0.5rem 0.3rem;
+  margin-top: 3px;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
 header > div:first-of-type > a {
   color: rgba(255, 255, 255, 0.54);
   padding: 0.5rem 0.3rem;
@@ -116,11 +124,6 @@ header > div:first-of-type > a {
 
 header > div:first-of-type > a:first-of-type {
   margin-left: 1rem;
-}
-
-header > div:first-of-type {
-  background-color: black;
-  padding-bottom: 0.1rem;
 }
 
 header > div:nth-child(2) {
@@ -193,6 +196,10 @@ header > div:nth-child(2) > div > span:last-of-type {
   padding: 0.5rem 1rem;
 }
 
+.nav {
+  background-color: black;
+  padding-bottom: 0.1rem;
+}
 .section-2 {
   width: 93%;
   max-height: 72rem;
